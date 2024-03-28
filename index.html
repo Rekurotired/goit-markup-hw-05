@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="Effective Solutions for Your Business" />
-    <title>homework_04</title>
+    <title>homework_05</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -473,4 +473,103 @@
       </div>
     </footer>
   </body>
+</html>
+
+<div class="sub">
+  <p class="sub-text">Subscribe</p>
+  <form class="email">
+    <label class="email-label">
+      <input
+        class="email-input"
+        type="email"
+        name="email"
+        placeholder="E-mail"
+      />
+    </label>
+    <button class="sub-button" type="submit">
+      Subscribe<svg class="send-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-icon-send"></use>
+      </svg>
+    </button>
+  </form>
+</div>
+</div>
+</footer>
+
+<!-- MODAL -->
+
+
+<div class="backdrop is-open">
+  <div class="modal">
+    <button class="close" type="button">
+      <svg class="close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+      </svg>
+    </button>
+    <p class="form-title">Leave your contacts and we will call you back</p>
+    <form>
+      <div class="form">
+        <label for="user-name" class="form-label">Name</label>
+        <div class="form-field">
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="name-field"
+          />
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form">
+        <label for="phone" class="form-label">Phone</label>
+        <div class="form-field">
+          <input type="tel" name="phone" id="phone" class="name-field" />
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form">
+        <label for="email" class="form-label">Email</label>
+        <div class="form-field">
+          <input type="email" name="email" id="email" class="name-field" />
+          <svg class="form-icon" width="18" height="24">
+            <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="form-comment">
+        <label for="user-comment" class="form-label">Comment</label>
+        <textarea
+          class="comment-field"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Text input"
+        ></textarea>
+      </div>
+      <div class="checkbox-with-label">
+        <input
+          id="user-privacy"
+          type="checkbox"
+          value="true"
+          name="user-privacy"
+          class="checkbox visually-hidden"
+        />
+        <label for="user-privacy" class="check-text">
+          <span class="check">
+            <svg class="check-icon" width="10" height="8">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg>
+          </span>
+          I accept the terms and conditions of the
+          <a href="" class="privacy">Privacy Policy</a>
+        </label>
+      </div>
+      <button class="send-btn" type="submit" name="submit">Send</button>
+    </form>
+  </div>
+</div>
+</body>
 </html>
