@@ -472,6 +472,71 @@ p {
   background-color: #404bbf;
 }
 
+.socials-icon {
+  fill: #f4f4fd;
+}
+
+.sub {
+  margin-left: 80px;
+}
+
+.sub-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.email {
+  display: flex;
+  gap: 24px;
+}
+
+.email-input {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
+}
+
+.email-input::placeholder {
+  color: #fff;
+}
+
+.sub-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+  min-width: 165px;
+  height: 40px;
+}
+
+.send-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
+
+.sub-button:hover,
+.sub-button:focus {
+  background: #404bbf;
+}
+
 /* MODAL */
 
 .backdrop.is-open {
